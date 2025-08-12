@@ -9,15 +9,6 @@
       ]
     },
     {
-      "source": "/(.*\\.wasm\\.unityweb)",
-      "headers" : [
-        {
-          "key" : "Content-Type",
-          "value" : "application/wasm"
-        }
-      ]
-    },
-    {
       "source": "/(.*\\.gz)",
       "headers" : [
         {
@@ -44,4 +35,13 @@
         }
       ]
     },
+    {
+      "source": "/(.*\\.wasm\\.br)",
+      "headers" : [
+        {
+          "key" : "Content-Type",
+          "value" : "application/wasm"
+        }
+      ]
+    }
   ]
