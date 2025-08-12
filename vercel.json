@@ -36,12 +36,12 @@
       ]
     },
     {
-      "source": "/(.*\\.wasm\\.br)",
+      "source": "/(.*\\.br)",
       "headers" : [
         {
-          "key" : "Content-Type",
-          "value" : "application/wasm"
+          "key" : "Content-Encoding",
+          "value" : "br"
         }
       ]
-    }
+    },
   ]
